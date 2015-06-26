@@ -49,7 +49,7 @@ public class Streams1 {
                 .mapToObj(i -> "val" + i)
                 .forEach(System.out::println);
 
-        // Or even combines
+        // or even combined
         Stream.of(1.0, 2.0, 3.0)
                 .mapToInt(Double::intValue)
                 .mapToObj(i -> "val" + i)
