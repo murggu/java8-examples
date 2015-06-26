@@ -10,10 +10,11 @@ import java.util.Date;
  */
 public class LocalDateTime1 {
 
-    /**
-     * LocalDateTime is immutable and combines date and time in a single instance
-     */
     public static void main(String[] args) {
+
+        /**
+         * LocalDateTime is immutable and combines date and time in a single instance
+         */
         LocalDateTime dateTime = LocalDateTime.of(2015, Month.DECEMBER, 31, 23, 59, 59);
 
         DayOfWeek dayOfWeek = dateTime.getDayOfWeek();
