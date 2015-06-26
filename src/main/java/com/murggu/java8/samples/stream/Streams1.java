@@ -13,6 +13,13 @@ public class Streams1 {
 
     public static void main(String[] args) {
 
+        /**
+         * In this example:
+         * - intermediate operations: filter, map, mapToInt, mapToLong, mapToDouble, mapToObj, sorted
+         * - terminal operations: forEach, forEachOrdered
+         * - short circ. terminal operations: findFirst
+         */
+
         Arrays.stream(new String[]{"val11", "val2", "val3", "val4", "val1"})
                 .filter(s -> s.contains("1"))
                 .map(String::toUpperCase)
@@ -27,7 +34,7 @@ public class Streams1 {
         // streams for primitive data types: int, long and double and support the additional terminal operations
         // sum() and average()
         IntStream.range(1, 4)
-                .forEach(System.out::println);
+                .forEachOrdered(System.out::println);
 
         LongStream.of(1, 2, 3)
                 .forEach(System.out::println);
