@@ -1,5 +1,5 @@
 pom.xml
 *.iml
 
-src/main/resource
+src/main/resources
 src/test
