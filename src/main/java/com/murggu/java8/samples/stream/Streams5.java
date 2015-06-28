@@ -13,9 +13,8 @@ public class Streams5 {
 
         /**
          * FlatMap intermediate operation. Transforms each element of the stream into a stream of other objects.
-         * Optionals flatMap operation can be utilized to prevent nasty null checks.
+         * Optional flatMap operation can be utilized to prevent nasty null checks.
          */
-
 
         IntStream.range(1, 4)
                 .mapToObj(i -> new Foo("Foo" + i))
