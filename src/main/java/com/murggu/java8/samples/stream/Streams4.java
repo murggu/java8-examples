@@ -87,7 +87,7 @@ public class Streams4 {
         System.out.println(names);
     }
 
-   static  class Person {
+   static class Person {
         String name;
         int age;
 

@@ -26,7 +26,6 @@ public class Streams5 {
     }
 
     static class Foo {
-
         String name;
         List<Car> cars = new ArrayList<>();
 
@@ -36,7 +35,6 @@ public class Streams5 {
     }
 
     static class Car {
-
         String name;
 
         Car(String name) {
