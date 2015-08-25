@@ -14,6 +14,7 @@ public class Suppliers {
         /**
          * Suppliers produce a result of a given generic type. Don't accept arguments
          */
+
         Supplier<Racket> racketSupplier = Racket::new;
         System.out.println(racketSupplier.get());
 
@@ -29,12 +30,5 @@ public class Suppliers {
 
         String name;
         String brand;
-
-        Racket() {}
-
-        Racket(String name, String brand) {
-            this.name = name;
-            this.brand = brand;
-        }
     }
 }
